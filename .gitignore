@@ -10,6 +10,7 @@ layermeshes/
 
 !minnie65_full/smooth_minnie65_full_prediction.json
 !minnie65_full/minnie65_full_prediction.json
+!requirements.txt
 .idea
 
 # Byte-compiled / optimized / DLL files

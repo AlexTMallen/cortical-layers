@@ -583,8 +583,9 @@ class BoundaryPredictor:
 
 class LayerClassifier:
     """
-    Takes the resulting layer borders from LayerPredictor, cleans them up,
-    and classifies which layer a given point is in
+    Takes the resulting layer borders from LayerPredictor classifies which layer a given list of points is in.
+    More detailed information about the layer prediction, such as the bounds, in mm, can be found in the `pred`
+    attribute, e.g. in `pred.bounds`
     """
     LAYER_NAMES = np.array(["L1", "L23", "L4", "L5", "L6", "WM"], dtype=object)
     # hard-coded mapping from aligned volume names to the path of that volume's layer prediction
